@@ -11,8 +11,7 @@
     <!-- google font -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
 
-
-    <!-- tailwind -->
+     <!-- tailwind -->
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
@@ -68,27 +67,31 @@
                 <section class="mt-10" id="calculation-area">
                     <div class="grid grid-cols-2 w-3/4">
                         <h3 class="text-base font-bold">Best Price</h3>
-                        <h3 class="text-base font-bold mb-2">$1299</h3>
+                        <h3 class="text-base font-bold mb-2">$ <span id="best-price">1299</span> </h3>
                         <hr class="line">
                     </div>
+
                     <div class="grid grid-cols-2 w-3/4 mt-3">
                         <h3 class="text-base font-bold">Extra memory cost</h3>
-                        <h3 class="text-base font-bold mb-2">$0</h3>
+                        <h3 class="text-base font-bold mb-2">$ <span id="ex-memory">0</span> </h3>
                         <hr class="line">
                     </div>
+
                     <div class="grid grid-cols-2 w-3/4 mt-3">
                         <h3 class="text-base font-bold">Extra storage cost</h3>
-                        <h3 class="text-base font-bold mb-2">$0</h3>
+                        <h3 class="text-base font-bold mb-2">$ <span id="exStorage">0</span> </h3>
                         <hr class="line">
                     </div>
+
                     <div class="grid grid-cols-2 w-3/4 mt-3">
                         <h3 class="text-base font-bold">Delivery Charge</h3>
-                        <h3 class="text-base font-bold mb-2">$0</h3>
+                        <h3 class="text-base font-bold mb-2">$ <span id="delivery-charge">0</span></h3>
                         <hr id="highlight-line" class="line">
                     </div>
+
                     <div class="grid grid-cols-2 w-3/4 mt-3">
                         <h3 class="text-base font-bold">Total Price</h3>
-                        <h3 class="text-base font-bold mb-2">$1299</h3>
+                        <h3 class="text-base font-bold mb-2">$ <span id="total-price" class="total">1299</span> </h3>
                         <hr class="line">
                     </div>
                 </section>
@@ -111,11 +114,11 @@
         <!-- mac book features detail area end -->
 
     </section>
-    <hr class="big-line mb-10 w-3/4 m-auto"> 
+    <hr class="big-line mb-6 w-3/4 m-auto"> 
 
     <!-- total costing -->
-        <h1 class="text-2xl font-semibold text-center">
-            Total: $1299
+        <h1  id="total">
+            Total: $ <span class="total">1299</span>
         </h1>
     <!-- main area end -->
 

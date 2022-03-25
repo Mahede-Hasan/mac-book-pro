@@ -16,7 +16,8 @@ body{
 }
 .ram-btn:hover{
     color: white;
-    background-color: rgb(172, 167, 167);
+    background-color: black;
+    border: 2px solid black;
 }
 /* ssd button style */
 .storage-btn{
@@ -27,7 +28,8 @@ body{
 }
 .storage-btn:hover{
     color: white;
-    background-color: rgb(172, 167, 167);
+    background-color: black;
+    border: 2px solid black;
 }
 
 /* delivery button style */
@@ -39,7 +41,8 @@ body{
 }
 .delivery-btn:hover{
     color: white;
-    background-color: rgb(172, 167, 167);
+    background-color: black;
+    border: 2px solid black;
 }
 
 /* calculation ara style */
@@ -77,5 +80,13 @@ body{
 .big-line{
     color: black;
     width: 100%;
+}
+
+/* total price */
+
+#total{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 500;
 }
 
