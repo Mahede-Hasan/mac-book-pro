@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac Book Pro</title>
+    <!-- css style sheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+
+
+    <!-- tailwind -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <!-- main area -->
+    <section class="main-sec w-3/4 mx-auto grid grid-cols-2 gap-10 pt-8" id="main-area">
+        
+        <!-- mac book image area -->
+        <div class="macBook-img half-width" id="mac-book-img">
+            <img src="images/mac.png" alt="">
+        </div>
+        <!-- mac book image area end -->
+
+        <!-- mac book features detail area -->
+        <article>
+            <div id="mac-book-details half-width">
+                <h1 class="header-text text-3xl">Customize your blue 24inch iMac with apple M1 chip.</h1>
+                <p class="pt-5">
+                    Apple M1 chip with 8‑core CPU, 8‑core GPU, and 16‑core Neural Engine
+                    8GB unified memory
+                    256GB SSD storage
+                    13-inch Retina display with True Tone
+                    Backlit Magic Keyboard - US English
+                </p>
+
+                <!-- button area start -->
+
+                 <!-- memory button -->
+                 <h3 class="text-base font-bold pt-8 pb-1">
+                    Memory
+                </h3>
+                <button class="ram-btn " id="btn-8gb">8GB unified memory</button>
+                <button class="ram-btn " id="btn-16gb">16GB unified memory</button>
+
+                <!-- storage button -->
+                <h3 class="text-base font-bold pt-8 pb-1">
+                    Storage
+                </h3>
+                <button class="storage-btn " id="btn-256gb">256GB SSD storage</button>
+                <button class="storage-btn " id="btn-512gb">512GB SSD storage</button>
+                <button class="storage-btn " id="btn-1tb">1TB SSD storage</button>
+
+                <!-- delivery button -->
+                <h3 class="text-base font-bold pt-8 pb-1">
+                   Choose your delivery option
+                </h3>
+                <button class="delivery-btn text-sm" id="free-delivery">Friday, 15 Aug Free prime delivery</button>
+                <button class="delivery-btn text-sm" id="expanse-delivery">Friday,20 Aug delivery charge $20</button>
+
+                <!-- button area end -->
+
+                <!-- product calculation area start -->
+
+                <section class="mt-10" id="calculation-area">
+                    <div class="grid grid-cols-2 w-3/4">
+                        <h3 class="text-base font-bold">Best Price</h3>
+                        <h3 class="text-base font-bold mb-2">$1299</h3>
+                        <hr class="line">
+                    </div>
+                    <div class="grid grid-cols-2 w-3/4 mt-3">
+                        <h3 class="text-base font-bold">Extra memory cost</h3>
+                        <h3 class="text-base font-bold mb-2">$0</h3>
+                        <hr class="line">
+                    </div>
+                    <div class="grid grid-cols-2 w-3/4 mt-3">
+                        <h3 class="text-base font-bold">Extra storage cost</h3>
+                        <h3 class="text-base font-bold mb-2">$0</h3>
+                        <hr class="line">
+                    </div>
+                    <div class="grid grid-cols-2 w-3/4 mt-3">
+                        <h3 class="text-base font-bold">Delivery Charge</h3>
+                        <h3 class="text-base font-bold mb-2">$0</h3>
+                        <hr id="highlight-line" class="line">
+                    </div>
+                    <div class="grid grid-cols-2 w-3/4 mt-3">
+                        <h3 class="text-base font-bold">Total Price</h3>
+                        <h3 class="text-base font-bold mb-2">$1299</h3>
+                        <hr class="line">
+                    </div>
+                </section>
+
+                <!-- product calculation area end -->
+
+                <!-- promo code  -->
+
+                <div class="mt-5 mb-5">
+                    <h3 class="text-base font-semibold mb-2">
+                        Promo Code
+                    </h3>
+                    <input id="promo-input" class="promo-input-field" type="text">
+                    <button id="promo-code-btn" class="promo-btn">Apply</button>
+                    
+                </div>
+               
+            </div>
+        </article>
+        <!-- mac book features detail area end -->
+
+    </section>
+    <hr class="big-line mb-10 w-3/4 m-auto"> 
+
+    <!-- total costing -->
+        <h1 class="text-2xl font-semibold text-center">
+            Total: $1299
+        </h1>
+    <!-- main area end -->
+
+
+    <!-- javascript style sheet -->
+    <script src="app.js"></script>
+</body>
+</html>
